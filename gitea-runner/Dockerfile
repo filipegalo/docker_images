@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rsync \
     curl \
     wget \
+    unzip \
     openssh-client \
     ca-certificates \
   && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
